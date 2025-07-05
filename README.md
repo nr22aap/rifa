@@ -49,19 +49,13 @@ fyp_hms/
 ├── index.php # Landing page
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
 
----
 
 ## 🔒 Security Features
 
 - Session validation and logout handling
 - Input sanitization to prevent SQL injection
 - Role-based page access and privilege control
-
----
 
 ## 📈 Learning Outcomes
 
@@ -79,7 +73,6 @@ Edit
 - Email/SMS notification system  
 - Patient self-registration module  
 
----
 
 ## 🙋‍♀️ About Me
 
@@ -89,7 +82,30 @@ Edit
 
 If you found this project helpful or would like to collaborate, feel free to **star**, **fork**, or **connect** with me!
 
----
+## 🧪 How to Run This Project
+
+1. **Requirements**
+   - XAMPP (or any Apache + MySQL stack)
+   - Web browser
+   - Code editor (e.g., VS Code)
+
+2. **Setup Instructions**
+   - Download or clone this repository into your `htdocs` folder:
+     git clone <your-repo-link> C:\xampp\htdocs\fyp_hms
+    
+   - Start **Apache** and **MySQL** from XAMPP Control Panel.
+   - Open `phpMyAdmin` and import the provided SQL database (e.g., `hms.sql`).
+   - Update database connection settings inside `includes/db_config.php` if needed.
+   - Open your browser and navigate to:
+     http://localhost/fyp_hms/
+
+
+3. **Default Credentials**
+   - Admin Login: hms_admin / admin123
+   - Doctor Login: doctor_1 / 123
+
+> 📌 Make sure your XAMPP is running and the database is correctly imported before accessing the system.
+
 
 ## 💬 Let's Connect
 
