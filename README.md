@@ -1,83 +1,101 @@
-🏥 Hospital Management System (HMS)
-A full-stack hospital management solution developed using PHP, MySQL, and Bootstrap, designed to streamline patient care and hospital operations. This project was completed as part of my final year at the University of Hertfordshire and received a 78% First Class grade.
+# 🏥 Hospital Management System (HMS)
 
-📌 The system focuses on real-time operations, data security, and role-based access control for doctors and administrators.
-📌 Key Features
-🔐 Role-Based Access Control:
+A full-stack hospital management solution developed using **PHP, MySQL, and Bootstrap**, designed to streamline hospital workflows, enhance data security, and support medical staff in managing day-to-day operations. This was my final year project at the **University of Hertfordshire**, and I received a **78% (First Class Honours)** grade.
 
-Admin Panel: Full control over patient records, finances, pharmacy, and system settings
 
-Doctor Panel: View, update, and manage assigned patient data
+ 🔑 Key Features
+ 🔐 Role-Based Access Control
+- **Admin Panel**: Full control over patient records, employee/staff management, inventory, pharmacy, finances, and system data.
+- **Doctor Panel**: View assigned patient profiles, update diagnoses, and manage prescriptions and medical reports.
 
-📋 Secure Patient Records Management
+📋 Patient Records Management
+- Add, edit, and manage secure patient records.
+- Maintain diagnosis histories, prescriptions, test results, and treatment notes.
 
-Add, edit, delete medical records
+💊 Pharmacy & Inventory Management
+- Track available medicines, equipment, and suppliers.
+- Maintain stock levels with alerts to prevent stockouts or overstocking.
 
-Maintain diagnosis history, prescriptions, and visit details
+ 💰 Financial Reporting
+- View and manage income, expenses, payroll, and account summaries.
+- Generate reports for administrative and accounting purposes.
 
-💊 Pharmacy and Inventory Management
+🌐 Accessible, Responsive UI
+- Built using Bootstrap with a clean, mobile-friendly layout.
+- Follows **WCAG accessibility guidelines** for usability across devices.
 
-Track available medicines, suppliers, and stock levels
+---
 
-Reduce manual errors with real-time updates
+## 🛠️ Tech Stack
 
-💰 Financial Reporting & Analytics
+| Layer        | Technologies/Tools                              |
+|--------------|--------------------------------------------------|
+| Frontend     | HTML, CSS, Bootstrap                            |
+| Backend      | PHP (Procedural)                                |
+| Database     | MySQL                                           |
+| Development  | XAMPP, phpMyAdmin                               |
+| Security     | Session handling, input validation/sanitization |
 
-Generate billing reports
+---
 
-View and manage outstanding balances
+## 📁 Project Structure
 
-🌐 Accessible, Responsive Design
+fyp_hms/
+├── admin/ # Admin dashboard and management tools
+├── doctor/ # Doctor panel and patient interfaces
+├── includes/ # Reusable PHP functions, DB configs
+├── assets/ # CSS, JS files, and images
+├── login.php # Login gateway
+├── index.php # Landing page
+└── README.md # Project documentation
 
-WCAG-compliant user interface
-
-Optimized for all screen sizes and devices
-
-💻 Tech Stack
-Layer	Tools & Technologies
-Frontend	HTML, CSS, Bootstrap
-Backend	PHP (Procedural)
-Database	MySQL
-Tools	XAMPP, phpMyAdmin
-Security	Session Handling, Input Sanitization
-
-📁 Project Structure
-bash
+yaml
 Copy
 Edit
-fyp_hms/
-├── admin/              # Admin dashboard
-├── doctor/             # Doctor panel
-├── includes/           # Reusable functions, DB configs
-├── assets/             # CSS, JS, and images
-├── login.php           # Login entry point
-├── index.php           # Main landing page
-└── README.md           # Documentation
-🛡️ Security Measures
-Secure login with session validation
 
-Input sanitization to prevent SQL injection
+---
 
-Controlled access based on roles
+## 🔒 Security Features
 
-📈 Learning Outcomes
-Strengthened skills in modular backend logic, SQL optimization, and full-stack integration
+- Session validation and logout handling
+- Input sanitization to prevent SQL injection
+- Role-based page access and privilege control
 
-Gained experience building a real-world application with accessibility, scalability, and usability in mind
+---
 
-Applied secure software design practices within a healthcare context
+## 📈 Learning Outcomes
 
-📌 Future Improvements
-Appointment scheduling system
-Email/SMS integration
-Role for receptionists and lab staff
-Patient self-registration module
+- Designed and implemented a **modular hospital management platform**
+- Strengthened skills in **backend logic, SQL optimization, and full-stack integration**
+- Gained hands-on experience in **secure database handling** and **healthcare-related system design**
+- Applied accessibility, usability, and scalability considerations in a real-world context
 
-🙋‍♀️ About Me
-Nuzhat Tasnim Rifa
-📍 Computer Science (Software Engineering), University of Hertfordshire
-🎓 Obtained: First Class Honours
-📬 Email: nuzhatrifa24@gmail.com
+---
 
+## 🚀 Future Improvements
 
-⭐ If you found this project useful or interesting, feel free to star, fork, or connect with me!
+- Appointment scheduling system for patients and doctors  
+- Role-based interfaces for receptionists and lab staff  
+- Email/SMS notification system  
+- Patient self-registration module  
+
+---
+
+## 🙋‍♀️ About Me
+
+**Nuzhat Tasnim Rifa**  
+🎓 BSc (Hons) Computer Science (Software Engineering), University of Hertfordshire  
+📬 nuzhatrifa24@gmail.com  
+
+If you found this project helpful or would like to collaborate, feel free to **star**, **fork**, or **connect** with me!
+
+---
+
+## 💬 Let's Connect
+
+📎 LinkedIn: https://www.linkedin.com/in/nuzhatrifa/  
+💼 Open to roles in software engineering, backend development, and digital health innovation.
+
+---
+
+⭐ *Thanks for visiting!*
